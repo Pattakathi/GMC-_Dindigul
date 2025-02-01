@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMC-DINDIGUL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">GMC-DINDIGUL</div>
+        <nav>
+            <ul>
+                <li>Denovianz'24 Table 7</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>Erb's Palsy and HORNER'S SYNDROME</h1>
+            <button class="main-button" onclick="showInfo('gmc')"> GMC-DINDIGUL</button>
+        </section>
+
+        <section class="info-section">
+            <div class="card" onclick="showInfo('erb')">
+                <h2>Know more about Erb's Palsy</h2>
+            </div>
+            <div class="card" onclick="showInfo('horner')">
+                <h2>Know more about HORNER'S SYNDROME</h2>
+            </div>
+            <div class="card" onclick="showInfo('link')">
+                <h2>Possible link between Erb's paralysis & HORNER'S SYNDROME</h2>
+            </div>
+        </section>
+
+        <section id="info-box" class="hidden">
+            <h2 id="info-title"></h2>
+            <div id="image-container"></div>
+            <a id="pdf-link" href="#" target="_blank">Open PDF</a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
